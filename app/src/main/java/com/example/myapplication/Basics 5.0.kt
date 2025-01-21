@@ -13,14 +13,14 @@ fun main(){
     println("User Details : $user2")
 
     //copy function then we set to change the name only and copy the rest
-    val updatedUser = user1.copy(name="Lenovo Panjuta")
+    val updatedUser = user1.copy(name="Lenovo Pamjuta")
     println(user1)
     println(updatedUser)
 
     //component 1 is id
     println(updatedUser.component1())//print 1
     //component 2 is name
-    println(updatedUser.component2()) // print Lenovo Panjuta
+    println(updatedUser.component2()) // print Lenovo Pamjuta
 
     val (id,name) = updatedUser
     println("id = $id,name = $name")
